@@ -5,7 +5,7 @@ var webpack = require('webpack');
 
 module.exports = function() {
   var app = express();
-  app.set('port', process.env.PORT || 3301);
+  app.set('port', process.env.PORT || 8080);
 
   // webpack with HMR
   var webpackConfig = require('../webpack.config.babel');
