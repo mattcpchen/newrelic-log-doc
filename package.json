@@ -1,0 +1,32 @@
+{
+  "name": "newrelic-log-doc",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "pcln-design-system": "3.6.0",
+    "pcln-icons": "^3.1.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/polyfill": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.10.5",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.1.0",
+    "progress-bar-webpack-plugin": "^1.9.0",
+    "styled-components": "^4.3.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.13.2"
+  }
+}
